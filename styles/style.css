@@ -299,3 +299,18 @@
         height: 100%;
     }
     /* end of order */
+    /* footer */
+    
+    .footer {
+        background-color: rgb(15, 10, 0);
+    }
+    
+    .footer i {
+        font-size: 35px;
+        margin: 20px;
+    }
+    
+    .footer a {
+        text-decoration: none;
+    }
+    /*end of footer */
