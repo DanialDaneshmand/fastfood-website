@@ -240,4 +240,47 @@
         border-radius: 5px;
         color: orangered;
     }
-    /*end of gallery */
+    /* end of gallery */
+    /* review */
+    
+    .comment {
+        width: 100%;
+        /* height: 300px; */
+        padding: 10px;
+        /* border: 1px solid#ccc; */
+        box-shadow: 2px 4px 4px #bbb, 0px 0px 4px #ccc;
+    }
+    
+    .comment-text {
+        background-color: rgb(40, 40, 40);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .comment-text i {
+        color: orangered;
+    }
+    
+    .profile {
+        width: 25%;
+        height: 25%;
+        border: 1px solid#eee;
+        border-radius: 50%;
+        position: absolute;
+        top: -2%;
+        right: 36%;
+        background-color: #fff;
+    }
+    
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    .profile-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    /*end of review */
