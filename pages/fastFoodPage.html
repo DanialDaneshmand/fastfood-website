@@ -15,7 +15,7 @@
 
 <body>
     <!-- start of navigationbar -->
-    <nav class="navbar bg-light navbar-light navbar-expand-md shadow-navbar fixed-top">
+    <nav style="direction: ltr;" class="navbar bg-light navbar-light navbar-expand-md shadow-navbar sticky-top ">
         <a href="#" class="navbar-brand">
             <img class="w-75 h-50" src="../images/icons/icons8-fast-food-64.png" alt="">
         </a>
@@ -25,42 +25,42 @@
         <div class="collapse navbar-collapse" id="myCollapseNav">
             <ul class="navbar-nav ml-auto mr-3">
                 <li class="nav-item navbar-li">
-                    <a href="#" class="nav-link mr-4"><span>خانه</span></a>
+                    <a href="#home" class="nav-link mr-4"><span>خانه</span></a>
                 </li>
                 <li class="nav-item navbar-li">
-                    <a href="#" class="nav-link mr-4">ویژه ها</a>
+                    <a href="#special" class="nav-link mr-4">ویژه ها</a>
                 </li>
                 <li class="nav-item navbar-li">
-                    <a href="#" class="nav-link mr-4">محبوب ها</a>
+                    <a href="#popular" class="nav-link mr-4">محبوب ها</a>
                 </li>
                 <li class="nav-item navbar-li">
-                    <a href="#" class="nav-link mr-4">گالری</a>
+                    <a href="#gallery" class="nav-link mr-4">گالری</a>
                 </li>
                 <li class="nav-item navbar-li">
-                    <a href="#" class="nav-link mr-4">بازدید</a>
+                    <a href="#review" class="nav-link mr-4">نظرات</a>
                 </li>
                 <li class="nav-item navbar-li">
-                    <a href="#" class="nav-link mr-4">سفارش</a>
+                    <a href="#order" class="nav-link mr-4">سفارش</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- end of navigationbar -->
     <!-- stat of home-->
-    <section>
-        <div class="container-fluid mt-5" style="background-color: #fff;">
+    <section id="home">
+        <div class="container-fluid " style="background-color: #fff;">
             <div class="row" style="direction: rtl;">
                 <div class="col-lg-5 text-right d-flex align-items-center p-5">
                     <div>
-                        <p class="h1 mb-5 "> پخته شده باعشق</p>
+                        <p class="h1 mb-5 "> باعشق برای شما</p>
                         <p class="text-muted mt-5">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکن جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
                             گیرد.
                         </p>
-                        <button class="btns ">سفارش</button>
+                        <a href="#" class="order-btn">سفارش</a>
                     </div>
                 </div>
-                <div class="col-lg-7 ">
+                <div class="col-lg-7 d-none d-md-block">
                     <img src="../images/hamburger.webp " class="animation1 " alt=" ">
                 </div>
             </div>
@@ -68,7 +68,7 @@
     </section>
     <!-- end of home-->
     <!-- specials -->
-    <section>
+    <section id="special">
         <div class="container text-center" style="direction: rtl; margin-top: 150px;">
             <p class="h1 mb-5 p-3 border-bottom">غذاهای <span class="font-italic" style="color: orangered;">ویژه</span> ما</p>
             <div class="row justify-content-center p-3">
@@ -78,7 +78,7 @@
                             <img src="../images/11.jpeg" alt="">
                         </div>
                         <div class="special-info">
-                            <img src="../images/1.png" alt="">
+                            <img class="" src="../images/1.png" alt="">
                             <p class="h3">برگر</p>
                             <p class="text-muted mx-5 text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم </p>
                         </div>
@@ -150,7 +150,7 @@
     </section>
     <!-- end of specials -->
     <!--  popular -->
-    <section>
+    <section id="popular">
         <div class="container text-center">
             <p class="my-5 h1">مورد <span style="color: orangered;"> علاقه ها</span></p>
             <div class="row">
@@ -315,7 +315,7 @@
     </section>
     <!-- end of about our job -->
     <!-- gallery -->
-    <section class="my-5">
+    <section class="my-5" id="gallery">
         <div class="container text-center">
             <p class="h1 my-5"><span style="color: orangered;"> گالری</span> غذاهای ما </p>
             <div class="row justify-content-center">
@@ -432,7 +432,7 @@
     </section>
     <!--end of gallery -->
     <!-- review -->
-    <section class="my-5">
+    <section class="my-5" id="review">
         <div class="container text-center">
             <p class="h1 my-5" style="color: orangered;"> نظرات <span style="color: #000;">مشتریان  </span></p>
             <div class="row justify-content-center">
@@ -507,7 +507,7 @@
     </section>
     <!-- end of review -->
     <!-- order -->
-    <section class="my-4">
+    <section class="my-4" id="order">
         <div class="container text-center">
             <p class="h1">همین حالا<span style="color: orangered;"> سفارش</span> دهید </p>
             <div class="row my-5 shadow p-5">
@@ -542,7 +542,7 @@
                             <textarea class="form-control" rows="4" id="address" placeholder="ادرس"></textarea>
                         </div>
                         <div class="col-12 mt-4 text-right">
-                            <button class="btn btn-outline-danger">سفارش</button>
+                            <button class="order-btn">سفارش</button>
                         </div>
                     </div>
                 </div>
@@ -578,6 +578,13 @@
         </div>
     </footer>
     <!-- end of footer -->
+    <!-- scroll top button  -->
+    <a href="#home" class=" text-center p-3 scroll-top  fas fa-angle-up " id="scroll-top"></a>
+    <!-- loader -->
+    <div class="loader">
+        <img src="../images/loader.gif" alt="">
+    </div>
+    <!--end of loader -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
