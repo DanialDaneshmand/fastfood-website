@@ -1,8 +1,14 @@
+            @font-face {
+                font-family: byekan;
+                src: url(../fontes/BYekan+.ttf)format('true type');
+            }
+            
             * {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
                 direction: rtl;
+                font-family: byekan;
             }
             
             body {
